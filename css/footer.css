@@ -78,6 +78,9 @@
 }
 .footer-form-input {
   display: flex;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   border: 1px solid #fff;
   border-radius: 4px;
   color: #fff;
