@@ -90,9 +90,9 @@
   height: 40px;
   background-color: transparent;
   outline: transparent;
-  
-  
   transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-footer {
   display: flex;
@@ -116,6 +116,8 @@
   background: #4d5ae5;
   
   transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-btn:hover,
 .footer-btn:focus {
